@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "title": "iPhone 14 Pro Max",
+    "description": "The most advanced iPhone ever.",
+    "price": 120,
+    "discountPercentage": 0,
+    "rating": 4.9,
+    "stock": 100,
+    "brand": "Apple",
+    "category": "device",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/54/1326212/1.jpg?8191",
+    "images": [
+      "https://i.imgur.com/41Ic9yN.jpg",
+      "https://i.imgur.com/q35j3lD.jpg",
+      "https://i.imgur.com/v0h2eMx.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Samsung Galaxy S23 Ultra",
+    "description": "The best Android phone on the market.",
+    "price": 140,
+    "discountPercentage": 0,
+    "rating": 4.8,
+    "stock": 50,
+    "brand": "Samsung",
+    "category": "device",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/32/1485042/1.jpg?3420",
+    "images": [
+      "https://i.imgur.com/y2m7X2A.jpg",
+      "https://i.imgur.com/o440951.jpg",
+      "https://i.imgur.com/00k46sK.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "MacBook Pro M2",
+    "description": "The most powerful MacBook ever.",
+    "price": 140,
+    "discountPercentage": 0,
+    "rating": 4.7,
+    "stock": 200,
+    "brand": "Apple",
+    "category": "device",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/82/8945652/1.jpg?7938",
+    "images": [
+      "https://i.imgur.com/131u93r.jpg",
+      "https://i.imgur.com/456383e.jpg",
+      "https://i.imgur.com/69f5j8s.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Dell XPS 13",
+    "description": "The most popular XPS laptop.",
+    "price": 160,
+    "discountPercentage": 0,
+    "rating": 4.6,
+    "stock": 100,
+    "brand": "Dell",
+    "category": "device",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/78/7718352/1.jpg?3101",
+    "images": [
+      "https://i.imgur.com/005f8Qq.jpg",
+      "https://i.imgur.com/184f84K.jpg",
+      "https://i.imgur.com/v0y07mF.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "AirPods Pro",
+    "description": "The best wireless earbuds on the market.",
+    "price": 100,
+    "discountPercentage": 0,
+    "rating": 4.9,
+    "stock": 100,
+    "brand": "Apple",
+    "category": "accessories",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/93/8122912/1.jpg?5469",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/93/8122912/2.jpg?5469",
+      "https://i.imgur.com/892346w.jpg",
+      "https://i.imgur.com/i49364o.jpg"
+    ]
+  },
+
+  {
+    "id": 6,
+    "title": "Galaxy Watch 4",
+    "description": "A stylish smartwatch with advanced health tracking features.",
+    "price": 290,
+    "discountPercentage": 10,
+    "rating": 4.7,
+    "stock": 50,
+    "brand": "Samsung",
+    "category": "accessories",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/8480122/1.jpg?6959",
+    "images": [
+      "https://example.com/images/galaxy_watch_1.jpg",
+      "https://example.com/images/galaxy_watch_2.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "PlayStation 5",
+    "description": "Next-gen gaming console for immersive gaming experiences.",
+    "price": 340,
+    "discountPercentage": 0,
+    "rating": 4.8,
+    "stock": 20,
+    "brand": "Sony",
+    "category": "accessories",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/66/1604321/1.jpg?6206",
+    "images": [
+      "https://example.com/images/ps5_1.jpg",
+      "https://example.com/images/ps5_2.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Kindle Paperwhite",
+    "description": "High-resolution e-reader for book lovers.",
+    "price": 130,
+    "discountPercentage": 15,
+    "rating": 4.6,
+    "stock": 80,
+    "brand": "Amazon",
+    "category": "device",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/45/556953/1.jpg?5079",
+    "images": [
+      "https://example.com/images/kindle_1.jpg",
+      "https://example.com/images/kindle_2.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Sony WH-1000XM4",
+    "description": "Premium noise-canceling headphones with exceptional sound quality.",
+    "price": 150,
+    "discountPercentage": 10,
+    "rating": 4.9,
+    "stock": 30,
+    "brand": "Sony",
+    "category": "accessories",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/55/503567/1.jpg?5757",
+    "images": [
+      "https://example.com/images/sony_headphones_1.jpg",
+      "https://example.com/images/sony_headphones_2.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Dell XPS 13",
+    "description": "Powerful and compact laptop for productivity on the go.",
+    "price": 200,
+    "discountPercentage": 8,
+    "rating": 4.8,
+    "stock": 40,
+    "brand": "Dell",
+    "category": "device",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/55/8718352/1.jpg?3095",
+    "images": [
+      "https://example.com/images/dell_xps_1.jpg",
+      "https://example.com/images/dell_xps_2.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "GoPro Hero 9 Black",
+    "description": "High-definition action camera for capturing adventures.",
+    "price": 980,
+    "discountPercentage": 0,
+    "rating": 4.7,
+    "stock": 25,
+    "brand": "GoPro",
+    "category": "device",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/34/330479/1.jpg?9520",
+    "images": [
+      "https://example.com/images/gopro_hero9_1.jpg",
+      "https://example.com/images/gopro_hero9_2.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Fitbit Charge 5",
+    "description": "Advanced fitness tracker with built-in GPS and health insights.",
+    "price": 300,
+    "discountPercentage": 15,
+    "rating": 4.6,
+    "stock": 60,
+    "brand": "Fitbit",
+    "category": "accessories",
+    "thumbnail": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/03/8476412/1.jpg?9281",
+    "images": [
+      "https://example.com/images/fitbit_charge5_1.jpg",
+      "https://example.com/images/fitbit_charge5_2.jpg"
+    ]
+  }
+]
