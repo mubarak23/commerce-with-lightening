@@ -1,5 +1,5 @@
 
-# Comerce With Lightening Service
+# Commerce With Lightening Service
 
 ##  Backend Service for paying e-comerce product with bitcoin sats via bitcoin lightening network 
 
