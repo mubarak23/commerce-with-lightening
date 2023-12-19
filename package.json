@@ -1,10 +1,12 @@
 {
   "name": "commerce-with-lightening",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend Service for paying e-comerce product with bitcoin sats via bitcoin lightening network ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./build/app.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",

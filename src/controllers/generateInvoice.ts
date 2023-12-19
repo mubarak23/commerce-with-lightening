@@ -6,6 +6,7 @@ import { getInvoiceComment } from "../utils/getInvoiceComment";
 import { sumAmount } from "../utils/sumAmount";
 
 
+// console.log('process.env.MERCHANT_LN_ADDRESS', process.env.MERCHANT_LN_ADDRESS)
 if (!process.env.MERCHANT_LN_ADDRESS) {
   throw new Error(
     "Merchant's Lightning address environment variable is not defined"
@@ -15,14 +16,22 @@ if (!process.env.MERCHANT_LN_ADDRESS) {
 const ln = new LightningAddress(process.env.MERCHANT_LN_ADDRESS)
 
 export const generateInvoice = async (req: Request, res: Response) => {
+  console.log('ln', ln)
   const { name, email, products } = req.body as PurchaseRequest;
-  try {
+ try {
     if(products.length === 0){
       return res.status(400).json({
         error: "Please select products to purchase",
       });
     }
+  
+    console.log('ln.lnurlpData', ln.lnurlpData);
+    console.log('ln address', ln.address)
+
+    // await (new LightningAddress('mubarak23@getalby.com')).fetch()
+    // console.log('try another way to fetch', await (new LightningAddress('mubarak23@getalby.com')).fetch())
     await ln.fetch()
+    console.log('await ln.fetch()',  await ln.fetch())
 
     const invoice = await ln.requestInvoice({
       satoshi: sumAmount(products),
@@ -36,7 +45,7 @@ export const generateInvoice = async (req: Request, res: Response) => {
     console.log(invoice);
 
     return res.status(200).json({
-      invoice: invoice
+      invoice: products
     })
   } catch (error) {
     res.status(400).json({

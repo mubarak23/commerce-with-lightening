@@ -1,6 +1,7 @@
 require('dotenv').config()
 import cors from 'cors'
 import express, { Request, Response } from 'express'
+import router from './src/routes/route'
 
 
 const port = process.env.PORT || 5002
@@ -31,6 +32,6 @@ const io = require("socket.io")(server, {
 });
 
 
-// app.use(router)
+app.use(router)
 
 export { io }
